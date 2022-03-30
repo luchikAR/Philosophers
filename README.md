@@ -27,7 +27,7 @@ make
 
 Вопрос задачи заключается в том, чтобы разработать модель поведения (параллельный алгоритм), при котором ни один из философов не будет голодать, то есть будет вечно чередовать приём пищи и размышления. 
   
-### Difference between a semaphore and a mutex
+## Difference between a semaphore and a mutex
 |parameters|semaphore|Mutex|
 |:--------:|:-------:|:---:|
 |Mechanism|This is a type of signaling mechanism.|This is a locking mechanism.|
