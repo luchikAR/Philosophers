@@ -2,7 +2,8 @@
 
 ## Как запустить:
 ```
-* ./philo * * * * * <br>
+make
+./philo * * * * *
 ```
 "*" это соответственно: <br>
 \* количество философов <br>
@@ -13,14 +14,14 @@
 
 ## Описание
 Проблема обедающих философов является классическим примером, классический пример, используемый в информатике для иллюстрации проблем синхронизации при разработке параллельных алгоритмов и техник решения этих проблем.
-Задача была сформулирована в 1965 году Эдсгером Дейкстрой как экзаменационное упражнение для студентов. В качестве примера был взят конкурирующий доступ к ленточному накопителю. Вскоре задача была сформулирована Энтони Хоаром в том виде, в каком она известна сегодня 
+Задача была сформулирована в 1965 году Эдсгером Дейкстрой как экзаменационное упражнение для студентов. В качестве примера был взят конкурирующий доступ к ленточному накопителю. Вскоре задача была сформулирована Энтони Хоаром в том виде, в каком она известна сегодня.
 ### Постановка задачи
 <img src="https://github.com/markveligod/philosophers-/raw/master/img/1.png" width="300">  
   
-Five silent philosophers sit around a round table, with a plate of spaghetti in front of each philosopher. Forks are placed on the table between each pair of nearby philosophers.  
-Every philosopher can either eat or think. The meal is not limited to the amount of remaining spaghetti-an infinite supply is implied. However, the philosopher can only eat when holding two forks-one taken from the right and the other from the left (an alternative formulation of the problem implies bowls of rice and chopsticks instead of plates of spaghetti and forks).  
-Each philosopher can take the nearest fork (if it is available) or put it down — if he already holds it. Taking each fork and returning it to the table are separate actions that must be performed one after the other.  
-The question of the problem is to develop a model of behavior (a parallel algorithm) in which none of the philosophers will starve, that is, they will always alternate between eating and thinking.  
+Пять безмолвных философов сидят вокруг круглого стола, перед каждым философом стоит тарелка спагетти. Вилки лежат на столе между каждой парой ближайших философов.
+Каждый философ может либо есть, либо размышлять. Приём пищи не ограничен количеством оставшихся спагетти — подразумевается бесконечный запас. Тем не менее, философ может есть только тогда, когда держит две вилки — взятую справа и слева (альтернативная формулировка проблемы подразумевает миски с рисом и палочки для еды вместо тарелок со спагетти и вилок).
+Каждый философ может взять ближайшую вилку (если она доступна) или положить — если он уже держит её. Взятие каждой вилки и возвращение её на стол являются раздельными действиями, которые должны выполняться одно за другим.
+Вопрос задачи заключается в том, чтобы разработать модель поведения (параллельный алгоритм), при котором ни один из философов не будет голодать, то есть будет вечно чередовать приём пищи и размышления. 
   
 ## :page_facing_up: What is a semaphore?
 **A semaphore is** a signaling mechanism, and a thread waiting for a semaphore can be signaled by another thread. It uses two atomic operations: 1) wait and 2) signal to synchronize the process.  
