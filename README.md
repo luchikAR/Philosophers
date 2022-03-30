@@ -1,8 +1,18 @@
-# :white_check_mark: Philosophers-(project 2020)  
-## Description
+# :white_check_mark: Philosophers-(project 2021)
+
+## Как запустить:
+* ./philo * * * * * <br>
+"*" это соответственно: <br>
+\* количество философов <br>
+\* время до смерти(от одного приёма прищи до другого) <br>
+\* время на еду <br>
+\* время на сон <br>
+\* опционально, можно указать сколько приёмов пищи должно произойти <br>
+
+## Описание
 The problem of dining philosophers is a classic example used in computer science to illustrate synchronization problems in the development of parallel algorithms and techniques for solving these problems.  
 The problem was formulated in 1965 by Edsger Dijkstra as an examination exercise for students. Competing access to a tape drive was used as an example. Soon the problem was formulated by Richard Hoare in the form in which it is known today.  
-### Problem statement
+### Постановка задачи
 <img src="https://github.com/markveligod/philosophers-/raw/master/img/1.png" width="300">  
   
 Five silent philosophers sit around a round table, with a plate of spaghetti in front of each philosopher. Forks are placed on the table between each pair of nearby philosophers.  
@@ -75,10 +85,6 @@ Copy CodeP(S)
 |Types|Semaphore types are considered semaphore and binary semaphore|Mutex has no subtypes.|
 |Operation|The semaphore value is changed using the wait() and signal() operations.|The mutex object is locked or unlocked.|
 |Employment resources|It is busy if all resources are in use, and the process requesting the resource performs a wait () operation and blocks until the semaphore count is > 1.|If the object is already locked, the process requesting resources waits and is logged in by the system before releasing the lock.|
-  
-## Run the project
-<img src="https://github.com/markveligod/philosophers-/raw/master/img/4.gif">  
-  
 
 ## Useful links:
 [Такие удивительные семафоры](https://habr.com/ru/post/261273/)  
