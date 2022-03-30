@@ -1,7 +1,9 @@
 # :white_check_mark: Philosophers-(project 2021)
 
 ## Как запустить:
+```
 * ./philo * * * * * <br>
+```
 "*" это соответственно: <br>
 \* количество философов <br>
 \* время до смерти(от одного приёма прищи до другого) <br>
@@ -10,8 +12,8 @@
 \* опционально, можно указать сколько приёмов пищи должно произойти <br>
 
 ## Описание
-The problem of dining philosophers is a classic example used in computer science to illustrate synchronization problems in the development of parallel algorithms and techniques for solving these problems.  
-The problem was formulated in 1965 by Edsger Dijkstra as an examination exercise for students. Competing access to a tape drive was used as an example. Soon the problem was formulated by Richard Hoare in the form in which it is known today.  
+Проблема обедающих философов является классическим примером, используемым в информатике для иллюстрации проблем синхронизации при разработке параллельных алгоритмов и методов решения этих проблем.
+Эта задача была сформулирована в 1965 году Эдсгером Дейкстрой в качестве экзаменационного упражнения для студентов. В качестве примера был использован конкурирующий доступ к ленточному накопителю. Вскоре проблема была сформулирована Ричардом Хоаром в том виде, в каком она известна сегодня. 
 ### Постановка задачи
 <img src="https://github.com/markveligod/philosophers-/raw/master/img/1.png" width="300">  
   
